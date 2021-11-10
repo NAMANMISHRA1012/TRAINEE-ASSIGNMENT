@@ -3,6 +3,7 @@ package com.example.demo.model;
 import java.time.LocalDate;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 
@@ -10,6 +11,7 @@ import javax.persistence.Id;
 
 public class Trainee {
 	@Id
+	
 	private long traineeId;
 	private String traineeName;
 	private String email;
